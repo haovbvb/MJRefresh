@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+MJRefreshExample in MJRefreshExample, no dependencies
+MJRefreshExampleTests in MJRefreshExample, depends on:
+MJRefreshExample in MJRefreshExample (explicit)

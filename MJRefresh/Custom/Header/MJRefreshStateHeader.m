@@ -119,6 +119,8 @@
     [self setTitle:[NSBundle mj_localizedStringForKey:MJRefreshHeaderPullingText] forState:MJRefreshStatePulling];
     [self setTitle:[NSBundle mj_localizedStringForKey:MJRefreshHeaderRefreshingText] forState:MJRefreshStateRefreshing];
     self.lastUpdatedTimeKey = MJRefreshHeaderLastUpdatedTimeKey;
+    self.stateLabel.hidden = YES;
+    self.lastUpdatedTimeLabel.hidden = YES;
 }
 
 #pragma mark - 覆盖父类的方法

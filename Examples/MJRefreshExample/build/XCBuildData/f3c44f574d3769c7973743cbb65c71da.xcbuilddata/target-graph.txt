@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+MJRefresh in MJRefresh, no dependencies
+MJRefreshExample in MJRefreshExample, depends on:
+MJRefresh in MJRefresh (implicit dependency via file 'MJRefresh.framework' in build phase 'Link Binary')

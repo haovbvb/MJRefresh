@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "620b0f08b9dc3d0c8ea93599c92663fda5ff6722988a7575c49dd6e5ac01db7a"
+build_start_time: [1706082639, 866156000]
+build_end_time: [1706082639, 978012000]
+inputs:
+  "/Users/ping/Desktop/GitHub/MJRefresh/Examples/MJRefreshExample/MJRefreshExample/Classes/SwiftExample/MJWKWebViewController.swift": !private [1690450493, 77927948]
+  "/Users/ping/Desktop/GitHub/MJRefresh/Examples/MJRefreshExample/MJRefreshExample/Classes/i18n/I18NExampleViewController.swift": !private [1690450493, 78785530]

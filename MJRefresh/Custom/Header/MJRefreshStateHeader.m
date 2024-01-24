@@ -115,10 +115,19 @@
 
 - (void)textConfiguration {
     // 初始化文字
+<<<<<<< HEAD
 //    [self setTitle:[NSBundle mj_localizedStringForKey:MJRefreshHeaderIdleText] forState:MJRefreshStateIdle];
 //    [self setTitle:[NSBundle mj_localizedStringForKey:MJRefreshHeaderPullingText] forState:MJRefreshStatePulling];
 //    [self setTitle:[NSBundle mj_localizedStringForKey:MJRefreshHeaderRefreshingText] forState:MJRefreshStateRefreshing];
 //    self.lastUpdatedTimeKey = MJRefreshHeaderLastUpdatedTimeKey;
+=======
+    [self setTitle:[NSBundle mj_localizedStringForKey:MJRefreshHeaderIdleText] forState:MJRefreshStateIdle];
+    [self setTitle:[NSBundle mj_localizedStringForKey:MJRefreshHeaderPullingText] forState:MJRefreshStatePulling];
+    [self setTitle:[NSBundle mj_localizedStringForKey:MJRefreshHeaderRefreshingText] forState:MJRefreshStateRefreshing];
+    self.lastUpdatedTimeKey = MJRefreshHeaderLastUpdatedTimeKey;
+    self.stateLabel.hidden = YES;
+    self.lastUpdatedTimeLabel.hidden = YES;
+>>>>>>> 8933f5e22b1392be988b7002bbe2ca6b63cb6485
 }
 
 #pragma mark - 覆盖父类的方法
